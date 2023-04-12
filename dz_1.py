@@ -1,5 +1,4 @@
 from urllib.parse import urlsplit, parse_qs
-from http.cookies import SimpleCookie
 
 
 def parse(query: str) -> dict:
